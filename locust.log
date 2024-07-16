@@ -1,0 +1,51 @@
+[2024-07-11 11:45:10,501] Chirags-Macbook/INFO/locust.main: Run time limit set to 10 seconds
+[2024-07-11 11:45:10,501] Chirags-Macbook/INFO/locust.main: Starting Locust 2.28.0
+[2024-07-11 11:45:10,501] Chirags-Macbook/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2024-07-11 11:45:10,501] Chirags-Macbook/INFO/locust.runners: All users spawned: {"QuickstartUser": 1} (1 total users)
+[2024-07-11 11:45:20,300] Chirags-Macbook/INFO/locust.main: --run-time limit reached, shutting down
+[2024-07-11 11:45:21,668] Chirags-Macbook/INFO/locust.main: Shutting down (exit code 1)
+[2024-07-11 11:50:22,741] Chirags-Macbook/INFO/locust.main: Run time limit set to 10 seconds
+[2024-07-11 11:50:22,741] Chirags-Macbook/INFO/locust.main: Starting Locust 2.28.0
+[2024-07-11 11:50:22,741] Chirags-Macbook/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2024-07-11 11:50:22,742] Chirags-Macbook/INFO/locust.runners: All users spawned: {"QuickstartUser": 1} (1 total users)
+[2024-07-11 11:50:32,544] Chirags-Macbook/INFO/locust.main: --run-time limit reached, shutting down
+[2024-07-11 11:50:34,271] Chirags-Macbook/INFO/locust.main: Shutting down (exit code 1)
+[2024-07-11 12:12:49,419] Chirags-Macbook/INFO/locust.main: Run time limit set to 10 seconds
+[2024-07-11 12:12:49,420] Chirags-Macbook/INFO/locust.main: Starting Locust 2.28.0
+[2024-07-11 12:12:49,421] Chirags-Macbook/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2024-07-11 12:12:49,421] Chirags-Macbook/INFO/locust.runners: All users spawned: {"QuickstartUser": 1} (1 total users)
+[2024-07-11 12:12:59,151] Chirags-Macbook/INFO/locust.main: --run-time limit reached, shutting down
+[2024-07-11 12:13:01,398] Chirags-Macbook/ERROR/root: Uncaught exception in event handler: 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/event.py", line 47, in fire
+    handler(**kwargs)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/new_partner.py", line 100, in _
+    server.login(sender_email, 'uaxqpyPwvpYsEuxHpC')
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-77d603fa713sm3834992a12.25 - gsmtp')
+
+[2024-07-11 12:13:01,398] Chirags-Macbook/INFO/locust.main: Shutting down (exit code 1)
+[2024-07-11 12:15:50,399] Chirags-Macbook/INFO/locust.main: Run time limit set to 10 seconds
+[2024-07-11 12:15:50,400] Chirags-Macbook/INFO/locust.main: Starting Locust 2.28.0
+[2024-07-11 12:15:50,401] Chirags-Macbook/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2024-07-11 12:15:50,401] Chirags-Macbook/INFO/locust.runners: All users spawned: {"QuickstartUser": 1} (1 total users)
+[2024-07-11 12:16:00,134] Chirags-Macbook/INFO/locust.main: --run-time limit reached, shutting down
+[2024-07-11 12:16:02,277] Chirags-Macbook/INFO/locust.main: Shutting down (exit code 1)
+[2024-07-11 12:17:45,601] Chirags-Macbook/INFO/locust.main: Run time limit set to 10 seconds
+[2024-07-11 12:17:45,601] Chirags-Macbook/INFO/locust.main: Starting Locust 2.28.0
+[2024-07-11 12:17:45,602] Chirags-Macbook/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2024-07-11 12:17:45,603] Chirags-Macbook/INFO/locust.runners: All users spawned: {"QuickstartUser": 1} (1 total users)
+[2024-07-11 12:17:55,338] Chirags-Macbook/INFO/locust.main: --run-time limit reached, shutting down
+[2024-07-11 12:17:57,665] Chirags-Macbook/INFO/locust.main: Shutting down (exit code 1)
+[2024-07-11 12:22:51,394] Chirags-Macbook/INFO/locust.main: Run time limit set to 10 seconds
+[2024-07-11 12:22:51,395] Chirags-Macbook/INFO/locust.main: Starting Locust 2.28.0
+[2024-07-11 12:22:51,396] Chirags-Macbook/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2024-07-11 12:22:51,397] Chirags-Macbook/INFO/locust.runners: All users spawned: {"QuickstartUser": 1} (1 total users)
+[2024-07-11 12:23:01,077] Chirags-Macbook/INFO/locust.main: --run-time limit reached, shutting down
+[2024-07-11 12:23:03,389] Chirags-Macbook/INFO/locust.main: Shutting down (exit code 1)
