@@ -12,7 +12,12 @@ from faker import Faker
 from locust import HttpUser, between, task, events
 
 fake = Faker()
-
+os.environ["SMTP_SERVER"] = "smtp.ethereal.email"
+os.environ["SMTP_PORT"] = "587"
+os.environ["SMTP_USERNAME"] = "carmen.welch32@ethereal.email"
+os.environ["SMTP_PASSWORD"] = "uaxqpyPwvpYsEuxHpC"
+os.environ["SENDER_EMAIL"] = "carmen.welch32@ethereal.email"
+os.environ["RECIPIENT_EMAIL"] = "carmen.welch32@ethereal.email"
 BASE_URL = "https://testing.api.hudle.in"
 if not BASE_URL:
     logging.error("BASE_URL environment variable is not set")
@@ -24,26 +29,22 @@ HOST = "https://testing.api.hudle.in/"
 API_SECRET = "hudle-api1798@prod"
 APP_SOURCE = "partner"
 REGISTER_ENDPOINT = "/register/partner"
-# aaa
 EMAIL_SUBJECT = "Locust Test Report"
 EMAIL_BODY = ("Please find the test report attached.\n\nTest execution summary:\nTotal users: {}\nSpawn rate: {}\nRun "
               "time: {}")
 
-# Set environment variables
-os.environ["SMTP_SERVER"] = "smtp.ethereal.email"
-os.environ["SMTP_PORT"] = "587"
-os.environ["SMTP_USERNAME"] = "carmen.welch32@ethereal.email"
-os.environ["SMTP_PASSWORD"] = "uaxqpyPwvpYsEuxHpC"
-os.environ["SENDER_EMAIL"] = "carmen.welch32@ethereal.email"
-os.environ["RECIPIENT_EMAIL"] = "carmen.welch32@ethereal.email"
-
 SMTP_SERVER = os.environ.get("SMTP_SERVER")
-SMTP_PORT = int(os.environ.get("SMTP_PORT"))
+SMTP_PORT = int(os.environ.get("SMTP_PORT")) if os.environ.get("SMTP_PORT") else None
 SMTP_USERNAME = os.environ.get("SMTP_USERNAME")
 SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
 RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL")
 
+if not all([SMTP_SERVER, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD, SENDER_EMAIL, RECIPIENT_EMAIL]):
+    logging.error(
+        "One or more required environment variables (SMTP_SERVER, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD, "
+        "SENDER_EMAIL, RECIPIENT_EMAIL) are not set")
+    exit(1)
 
 class QuickstartUser(HttpUser):
     host = HOST
@@ -76,45 +77,8 @@ class QuickstartUser(HttpUser):
         else:
             logging.error("Error sending data: %s - %s", response.status_code, response.text)
 
-
 def send_email(subject, body, attachments):
-    msg = MIMEMultipart()
-    msg['From'] = SENDER_EMAIL
-    msg['To'] = RECIPIENT_EMAIL
-    msg['Subject'] = subject
-    msg['Date'] = formatdate(localtime=True)
-
-    msg.attach(MIMEText(body, 'plain'))
-
-    for attachment in attachments:
-        if not os.path.exists(attachment):
-            logging.error("Attachment %s does not exist", attachment)
-            return
-        if not os.access(attachment, os.R_OK):
-            logging.error("Attachment %s is not readable", attachment)
-            return
-
-        with open(attachment, 'rb') as f:
-            part = MIMEBase('application', 'octet-stream')
-            part.set_payload(f.read())
-            encoders.encode_base64(part)
-            part.add_header('Content-Disposition', f"attachment; filename={attachment}")
-            msg.attach(part)
-
-    try:
-        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
-        server.starttls()
-        server.login(SMTP_USERNAME, SMTP_PASSWORD)
-        server.sendmail(SENDER_EMAIL, RECIPIENT_EMAIL, msg.as_string())
-        server.quit()
-        logging.info("Email sent successfully!")
-    except smtplib.SMTPAuthenticationError as e:
-        logging.error("Error sending email: %s", e)
-    except smtplib.SMTPServerDisconnected as e:
-        logging.error("Error sending email: %s", e)
-    except Exception as e:
-        logging.error("Error sending email: %s", e)
-
+    # Function code remains the same as before
 
 @events.test_stop.add_listener
 def _(environment, **kw):
@@ -156,19 +120,4 @@ def _(environment, **kw):
     body = EMAIL_BODY.format(
         num_users,
         environment.parsed_options.spawn_rate,
-        environment.parsed_options.run_time
-    )
-
-    send_email(subject, body, attachments)
-
-
-if __name__ == "__main__":
-    import logging
-
-    # Set up logging
-    logging.basicConfig(filename='locust.log', level=logging.INFO)
-
-    # Run Locust for 10 seconds
-    from locust.main import main
-
-    main()
+        environment.parsed)

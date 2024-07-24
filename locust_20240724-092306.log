@@ -1,0 +1,1814 @@
+[2024-07-24 09:23:09,413] Chirags-Macbook/INFO/locust.main: Run time limit set to 10 seconds
+[2024-07-24 09:23:09,413] Chirags-Macbook/INFO/locust.main: Starting Locust 2.28.0
+[2024-07-24 09:23:09,413] Chirags-Macbook/INFO/locust.runners: Ramping to 100 users at a rate of 10.00 per second
+[2024-07-24 09:23:10,098] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,099] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,101] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,234] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,277] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,301] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,435] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,457] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,639] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,643] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,863] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,879] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:10,913] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,063] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,081] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,115] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,253] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,269] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,299] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,431] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,446] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,894] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,937] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:11,946] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,180] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,210] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,253] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,369] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,381] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,442] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,643] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,643] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,658] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,817] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,886] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,894] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:12,935] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,037] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,163] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,179] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,186] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,276] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,398] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,620] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,625] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,625] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,626] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,747] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,807] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,817] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,863] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:13,882] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,015] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,103] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,115] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,125] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,162] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,265] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,442] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,443] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,444] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,444] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,686] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,785] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,796] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,826] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,831] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:14,869] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,062] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,096] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,105] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,116] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,118] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,409] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,415] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,434] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,435] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,450] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,727] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,733] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,745] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,746] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:15,746] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,025] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,048] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,078] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,081] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,093] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,322] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,369] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,401] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,416] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,443] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,646] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,666] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,678] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,724] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,746] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,880] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,958] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,961] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:16,985] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,040] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,167] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,206] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,235] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,307] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,309] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,650] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,656] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,656] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,656] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,656] Chirags-Macbook/ERROR/locust.user.task: 'data'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 312, in register_and_login
+    self.email, self.password = self.post_data()
+                                ^^^^^^^^^^^^^^^^
+  File "/Users/chiragkhanduja/PycharmProjects/Hudle_Load/copilot.py", line 354, in post_data
+    'ID': response_data['data']['id'],
+          ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+[2024-07-24 09:23:17,736] Chirags-Macbook/INFO/locust.main: --run-time limit reached, shutting down
+[2024-07-24 09:23:17,813] Chirags-Macbook/INFO/locust.main: writing html report to file: report_20240724-092306.html
+[2024-07-24 09:23:17,842] Chirags-Macbook/INFO/locust.main: Shutting down (exit code 1)
